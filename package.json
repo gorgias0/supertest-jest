@@ -1,0 +1,20 @@
+{
+  "name": "jesttest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  },
+  "devDependencies": {
+    "jest-stare": "^2.3.0"
+  },
+  "scripts": {
+    "test": "jest --reporters default jest-stare",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
